@@ -1,0 +1,107 @@
+section {
+  background-color: #f7f7f7;
+  padding: 3rem 6rem;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+td,
+th {
+  width: 25%;
+}
+
+
+
+.example-margin {
+  margin: 0 10px;
+}
+
+.example-card {
+  margin-bottom: 10px;
+  padding: 2.5rem;
+}
+
+.example-h2 {
+  margin: 10px;
+}
+
+.example-card mat-card-content {
+  display: flex;
+  padding-top: 2rem;
+  justify-content: space-around;
+}
+
+.container-spinner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-spinner h3{
+  display: block;
+  position: absolute;
+  margin: 0;
+  font-size: 1.35rem;
+  color: cornflowerblue;
+  border: 1px solid #e2e2e2;
+  border-radius: 50%;
+  height: 4.95rem;
+  width: 4.95rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+mat-progress-spinner{
+  display: flex;
+  border-radius: 50%;
+  border: 1px solid #e2e2e2;
+}
+
+.container-progress{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .75rem;
+}
+
+.container-progress h4{
+  letter-spacing: .15rem;
+}
+
+
+.progress-bar-container{
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.35rem;
+}
+
+.progress-bar-container div{
+  display: flex;
+  width: 900px;
+  align-items: center;
+  gap: 1rem;
+}
+
+.progress-bar-container div h3{
+  margin: 0;
+  width: 14rem;
+}
+
+.container-registros{
+  height: 80vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
